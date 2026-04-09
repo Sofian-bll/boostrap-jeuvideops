@@ -1,5 +1,3 @@
-
-
 describe('Index', () => {
   it('Shows index page', () => {
     cy.visit('/');
@@ -36,5 +34,12 @@ describe('Division', () => {
   it('Show error when trying to divides 42 by 0', () => {
     cy.visit('/div?a=42&b=0');
     cy.get('body').contains('Cannot divide 42 by zero');
+  });
+});
+
+describe('Power', () => {
+  it('Raises 2 to the power of 3', () => {
+    cy.visit('/pow?a=2&b=3');
+    cy.get('body').contains('2 ^ 3 = 8');
   });
 });

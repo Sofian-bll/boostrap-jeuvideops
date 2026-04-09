@@ -18,10 +18,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: update test workflow and add JSDoc generation&#10;&#10;- Adjust test workflow to separate coverage report generation&#10;- Add JSDoc generation step in the workflow configuration">
-      <changelist_data name="Sofian-bll" email="sofianebelloul@gmail.com" automatic="false" />
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: update JSDoc generation and improve IDE configuration&#10;&#10;- Update JSDoc generation command in test workflow  &#10;- Enhance IDE settings to include new configuration options">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/test.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/test.cy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,12 +141,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="npm.mocha:test">
-    <configuration name="app:serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="npm.cypress:run">
+    <configuration name="cypress:run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="app:serve" />
+        <script value="cypress:run" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -194,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.cypress:run" />
         <item itemvalue="npm.mocha:test" />
         <item itemvalue="npm.cypress:test" />
         <item itemvalue="npm.eslint:check" />
         <item itemvalue="npm.jsdoc" />
-        <item itemvalue="npm.app:serve" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +221,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="5444000" />
+      <workItem from="1775759319873" duration="6038000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -359,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775766531711</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="feat: update JSDoc generation and improve IDE configuration&#10;&#10;- Update JSDoc generation command in test workflow  &#10;- Enhance IDE settings to include new configuration options">
+      <option name="closed" value="true" />
+      <created>1775766656855</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1775766656855</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +410,8 @@
     <MESSAGE value="refactor: standardize code formatting and update configuration files  &#10;- Normalize code formatting in Cypress files, documentation, and config files  &#10;- Update IDE task management settings and cached file count" />
     <MESSAGE value="feat: improve code consistency and fix minor formatting issues&#10;&#10;- Standardize formatting across Cypress tests, documentation, and configuration files  &#10;- Enhance `/` route response message in `index.js`  &#10;- Refine Cypress configuration and documentation JSDoc output" />
     <MESSAGE value="feat: update test workflow and add JSDoc generation&#10;&#10;- Adjust test workflow to separate coverage report generation&#10;- Add JSDoc generation step in the workflow configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update test workflow and add JSDoc generation&#10;&#10;- Adjust test workflow to separate coverage report generation&#10;- Add JSDoc generation step in the workflow configuration" />
+    <MESSAGE value="feat: update JSDoc generation and improve IDE configuration&#10;&#10;- Update JSDoc generation command in test workflow  &#10;- Enhance IDE settings to include new configuration options" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update JSDoc generation and improve IDE configuration&#10;&#10;- Update JSDoc generation command in test workflow  &#10;- Enhance IDE settings to include new configuration options" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="github-copilot-workspace">

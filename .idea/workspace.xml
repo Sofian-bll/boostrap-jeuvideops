@@ -18,11 +18,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: streamline test workflow and IDE configuration  &#10;- Remove commented-out job in workflow  &#10;- Simplify coverage report generation step">
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: add unit tests for `power` method and improve test formatting&#10;- Implement tests for the new `power` method in the Calculator&#10;- Improve test formatting for better readability">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/calculator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +213,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="3991000" />
+      <workItem from="1775759319873" duration="4292000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -321,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775764273339</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="feat: add unit tests for `power` method and improve test formatting&#10;- Implement tests for the new `power` method in the Calculator&#10;- Improve test formatting for better readability">
+      <option name="closed" value="true" />
+      <created>1775765212120</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1775765212120</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +365,8 @@
     <MESSAGE value="refactor: enhance test workflow and code coverage  &#10;- Add coverage report generation to workflow  &#10;- Update IDE configuration for task management" />
     <MESSAGE value="refactor: clean up test workflow and update task configurations  &#10;- Remove commented-out job in workflow file  &#10;- Adjust IDE task management settings" />
     <MESSAGE value="refactor: streamline test workflow and IDE configuration  &#10;- Remove commented-out job in workflow  &#10;- Simplify coverage report generation step" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: streamline test workflow and IDE configuration  &#10;- Remove commented-out job in workflow  &#10;- Simplify coverage report generation step" />
+    <MESSAGE value="feat: add unit tests for `power` method and improve test formatting&#10;- Implement tests for the new `power` method in the Calculator&#10;- Improve test formatting for better readability" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add unit tests for `power` method and improve test formatting&#10;- Implement tests for the new `power` method in the Calculator&#10;- Improve test formatting for better readability" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

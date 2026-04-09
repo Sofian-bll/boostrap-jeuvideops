@@ -18,7 +18,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: improve test workflow and code readability  &#10;- Add documentation for `power` method  &#10;- Adjust formatting in `/pow` route  &#10;- Update IDE configuration for task management">
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: enhance test workflow and IDE settings  &#10;- Add unit test step to workflow  &#10;- Comment out redundant sample job  &#10;- Update IDE task management configuration">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -122,7 +122,7 @@
     "npm.jsdoc.executor": "Run",
     "npm.mocha:test.executor": "Run",
     "npm.nyc:run.executor": "Run",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "settings.editor.selected.configurable": "com.dsoftware.ghmanager",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -211,7 +211,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="2725000" />
+      <workItem from="1775759319873" duration="2879000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -285,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775763754032</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactor: enhance test workflow and IDE settings  &#10;- Add unit test step to workflow  &#10;- Comment out redundant sample job  &#10;- Update IDE task management configuration">
+      <option name="closed" value="true" />
+      <created>1775763927605</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1775763927605</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +327,8 @@
     <MESSAGE value="refine test workflow and update IDE configuration" />
     <MESSAGE value="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration" />
     <MESSAGE value="refactor: improve test workflow and code readability  &#10;- Add documentation for `power` method  &#10;- Adjust formatting in `/pow` route  &#10;- Update IDE configuration for task management" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: improve test workflow and code readability  &#10;- Add documentation for `power` method  &#10;- Adjust formatting in `/pow` route  &#10;- Update IDE configuration for task management" />
+    <MESSAGE value="refactor: enhance test workflow and IDE settings  &#10;- Add unit test step to workflow  &#10;- Comment out redundant sample job  &#10;- Update IDE task management configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: enhance test workflow and IDE settings  &#10;- Add unit test step to workflow  &#10;- Comment out redundant sample job  &#10;- Update IDE task management configuration" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

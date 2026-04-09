@@ -18,7 +18,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: enhance test workflow and IDE settings  &#10;- Add unit test step to workflow  &#10;- Comment out redundant sample job  &#10;- Update IDE task management configuration">
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: enhance test workflow and code coverage  &#10;- Add coverage report generation to workflow  &#10;- Update IDE configuration for task management">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -211,7 +211,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="2879000" />
+      <workItem from="1775759319873" duration="3007000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -293,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775763927605</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor: enhance test workflow and code coverage  &#10;- Add coverage report generation to workflow  &#10;- Update IDE configuration for task management">
+      <option name="closed" value="true" />
+      <created>1775764101985</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1775764101985</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,7 +336,8 @@
     <MESSAGE value="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration" />
     <MESSAGE value="refactor: improve test workflow and code readability  &#10;- Add documentation for `power` method  &#10;- Adjust formatting in `/pow` route  &#10;- Update IDE configuration for task management" />
     <MESSAGE value="refactor: enhance test workflow and IDE settings  &#10;- Add unit test step to workflow  &#10;- Comment out redundant sample job  &#10;- Update IDE task management configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: enhance test workflow and IDE settings  &#10;- Add unit test step to workflow  &#10;- Comment out redundant sample job  &#10;- Update IDE task management configuration" />
+    <MESSAGE value="refactor: enhance test workflow and code coverage  &#10;- Add coverage report generation to workflow  &#10;- Update IDE configuration for task management" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: enhance test workflow and code coverage  &#10;- Add coverage report generation to workflow  &#10;- Update IDE configuration for task management" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

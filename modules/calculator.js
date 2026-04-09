@@ -42,15 +42,21 @@ class Calculator {
   subtract(a, b) {
     return a - b;
   }
-
-  power(a, b) { //NEW FEATURE
-    if (b < 0)  
-        return 1/ a * this.power(a, b+1);
-    else if(b > 0)
-        return a * this.power(a, b - 1)
-    else
-        return 1;
-}
+  /**
+   * Calculate the power of a number.
+   * @param {number} a - The base.
+   * @param {number} b - The exponent.
+   * @return {number} The result.
+   */
+  power(a, b) { // NEW FEATURE
+    if (b < 0) {
+      return 1 / a * this.power(a, b + 1);
+    } else if (b > 0) {
+      return a * this.power(a, b - 1);
+    } else {
+      return 1;
+    }
+  }
 }
 
 module.exports = {Calculator};

@@ -18,9 +18,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refine test workflow by removing redundant job and updating IDE configuration">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/calculator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +123,7 @@
     "npm.jsdoc.executor": "Run",
     "npm.mocha:test.executor": "Run",
     "npm.nyc:run.executor": "Run",
-    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -211,7 +212,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="1754000" />
+      <workItem from="1775759319873" duration="2548000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -269,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775762071115</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration">
+      <option name="closed" value="true" />
+      <created>1775762958282</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775762958282</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +309,9 @@
     <MESSAGE value="update test workflow to trigger on main branch pushes and refine IDE configuration" />
     <MESSAGE value="refine test workflow by removing redundant job and updating IDE configuration" />
     <MESSAGE value="refine test workflow and IDE settings by adding lint job and updating task details" />
-    <option name="LAST_COMMIT_MESSAGE" value="refine test workflow and IDE settings by adding lint job and updating task details" />
+    <MESSAGE value="refine test workflow and update IDE configuration" />
+    <MESSAGE value="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

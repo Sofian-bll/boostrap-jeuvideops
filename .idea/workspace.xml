@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="update IDE configuration to improve task management and test workflow">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="update test workflow and IDE configuration to enhance task management">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +18,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="48" />
+    <option name="cachedIndexableFilesCount" value="58" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -81,8 +80,10 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Notification.DisplayName-DoNotAsk-GitHub Actions Manager": "GitHub Actions Manager",
     "Notification.DisplayName-DoNotAsk-git.push.result": "",
     "Notification.DisplayName-DoNotAsk-vcs.commit.finished": "2 files committed",
+    "Notification.DoNotAsk-GitHub Actions Manager": "true",
     "Notification.DoNotAsk-git.push.result": "true",
     "Notification.DoNotAsk-vcs.commit.finished": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -189,7 +190,8 @@
       <workItem from="1775752122555" duration="3049000" />
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
-      <workItem from="1775758238525" duration="855000" />
+      <workItem from="1775758238525" duration="1002000" />
+      <workItem from="1775759319873" duration="559000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -223,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775758794029</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update test workflow and IDE configuration to enhance task management">
+      <option name="closed" value="true" />
+      <created>1775759106993</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775759106993</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +260,8 @@
     <MESSAGE value="add project-specific code style and update IDE configuration" />
     <MESSAGE value="update test workflow to include code coverage reporting" />
     <MESSAGE value="update IDE configuration to improve task management and test workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="update IDE configuration to improve task management and test workflow" />
+    <MESSAGE value="update test workflow and IDE configuration to enhance task management" />
+    <option name="LAST_COMMIT_MESSAGE" value="update test workflow and IDE configuration to enhance task management" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

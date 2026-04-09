@@ -56,4 +56,4 @@ jobs:
         run: npm run cypress:test
 
       - name: Generate JSdoc
-        run: "jsdoc modules/ -d docs"
+        run: npm run jsdoc

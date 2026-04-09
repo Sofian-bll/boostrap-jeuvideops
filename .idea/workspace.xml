@@ -18,10 +18,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: update JSDoc generation and improve IDE configuration&#10;&#10;- Update JSDoc generation command in test workflow  &#10;- Enhance IDE settings to include new configuration options">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: add new functional test and update workflow steps&#10;&#10;- Add Cypress test for the `/pow` route&#10;- Enable and configure previously commented workflow steps&#10;- Update coverage report export command in test workflow">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/test.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/test.cy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +129,7 @@
     "npm.jsdoc.executor": "Run",
     "npm.mocha:test.executor": "Run",
     "npm.nyc:run.executor": "Run",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "settings.editor.selected.configurable": "com.dsoftware.ghmanager",
     "ts.external.directory.path": "/Users/sofian/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -221,7 +219,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="6038000" />
+      <workItem from="1775759319873" duration="7487000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -367,7 +365,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775766656855</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat: add new functional test and update workflow steps&#10;&#10;- Add Cypress test for the `/pow` route&#10;- Enable and configure previously commented workflow steps&#10;- Update coverage report export command in test workflow">
+      <option name="closed" value="true" />
+      <created>1775767256448</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1775767256448</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +417,9 @@
     <MESSAGE value="feat: improve code consistency and fix minor formatting issues&#10;&#10;- Standardize formatting across Cypress tests, documentation, and configuration files  &#10;- Enhance `/` route response message in `index.js`  &#10;- Refine Cypress configuration and documentation JSDoc output" />
     <MESSAGE value="feat: update test workflow and add JSDoc generation&#10;&#10;- Adjust test workflow to separate coverage report generation&#10;- Add JSDoc generation step in the workflow configuration" />
     <MESSAGE value="feat: update JSDoc generation and improve IDE configuration&#10;&#10;- Update JSDoc generation command in test workflow  &#10;- Enhance IDE settings to include new configuration options" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: update JSDoc generation and improve IDE configuration&#10;&#10;- Update JSDoc generation command in test workflow  &#10;- Enhance IDE settings to include new configuration options" />
+    <MESSAGE value="feat: uncomment first job and refine test workflow&#10;&#10;- Enable `my_first_job` in workflow configuration&#10;- Add coverage export step with `lcov` format" />
+    <MESSAGE value="feat: add new functional test and update workflow steps&#10;&#10;- Add Cypress test for the `/pow` route&#10;- Enable and configure previously commented workflow steps&#10;- Update coverage report export command in test workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add new functional test and update workflow steps&#10;&#10;- Add Cypress test for the `/pow` route&#10;- Enable and configure previously commented workflow steps&#10;- Update coverage report export command in test workflow" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="github-copilot-workspace">

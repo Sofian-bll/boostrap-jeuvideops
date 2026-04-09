@@ -48,7 +48,12 @@ jobs:
         run: npm run mocha:test
 
       - name: Generate coverage report
-        run: npm run nyc:run && npm run nyc:coverage
+        run: npm run nyc:run
+#        Run & Export coverage report [HTML FILE]
+#        run: npm run nyc:run && npm run nyc:coverage
 
       - name: Functional Tests
         run: npm run cypress:test
+
+      - name: Generate JSdoc
+        run: "jsdoc modules/ -d docs"

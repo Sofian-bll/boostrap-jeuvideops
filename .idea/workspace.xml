@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="update test workflow to include code coverage reporting">
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="update IDE configuration to improve task management and test workflow">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -189,7 +189,7 @@
       <workItem from="1775752122555" duration="3049000" />
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
-      <workItem from="1775758238525" duration="544000" />
+      <workItem from="1775758238525" duration="855000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -215,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775758701335</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update IDE configuration to improve task management and test workflow">
+      <option name="closed" value="true" />
+      <created>1775758794029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1775758794029</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +249,8 @@
     <MESSAGE value="update GitHub Actions workflow to latest versions and adjust IDE configuration" />
     <MESSAGE value="add project-specific code style and update IDE configuration" />
     <MESSAGE value="update test workflow to include code coverage reporting" />
-    <option name="LAST_COMMIT_MESSAGE" value="update test workflow to include code coverage reporting" />
+    <MESSAGE value="update IDE configuration to improve task management and test workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="update IDE configuration to improve task management and test workflow" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -5,26 +5,26 @@ on:
     branches: ['main']
 
 jobs:
-  my_first_job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v6.0.0
-
-      - name: Setup Node
-        uses: actions/setup-node@v6.0.0
-        with:
-          node-version: 16.13.x
-          cache: npm
-
-      - name: Install
-        run: npm ci
-
-      - name: Hello World
-        run: echo "Hello Github Actions!"
-
-      - name: List files
-        run: ls -la
+#  my_first_job:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v6.0.0
+#
+#      - name: Setup Node
+#        uses: actions/setup-node@v6.0.0
+#        with:
+#          node-version: 16.13.x
+#          cache: npm
+#
+#      - name: Install
+#        run: npm ci
+#
+#      - name: Hello World
+#        run: echo "Hello Github Actions!"
+#
+#      - name: List files
+#        run: ls -la
 
   my_second_job:
     runs-on: ubuntu-latest
@@ -43,3 +43,6 @@ jobs:
 
       - name: Lint
         run: npm run eslint:check
+
+      - name: Unit Tests
+        run: npm run mocha:test

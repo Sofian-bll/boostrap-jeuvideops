@@ -18,10 +18,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration">
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: improve test workflow and code readability  &#10;- Add documentation for `power` method  &#10;- Adjust formatting in `/pow` route  &#10;- Update IDE configuration for task management">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/calculator.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +211,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="2548000" />
+      <workItem from="1775759319873" duration="2725000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -278,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775762958282</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor: improve test workflow and code readability  &#10;- Add documentation for `power` method  &#10;- Adjust formatting in `/pow` route  &#10;- Update IDE configuration for task management">
+      <option name="closed" value="true" />
+      <created>1775763754032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1775763754032</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +318,8 @@
     <MESSAGE value="refine test workflow and IDE settings by adding lint job and updating task details" />
     <MESSAGE value="refine test workflow and update IDE configuration" />
     <MESSAGE value="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: refine test workflow and IDE settings  &#10;- Add lint job to workflow  &#10;- Remove redundant job  &#10;- Update task management details in IDE configuration" />
+    <MESSAGE value="refactor: improve test workflow and code readability  &#10;- Add documentation for `power` method  &#10;- Adjust formatting in `/pow` route  &#10;- Update IDE configuration for task management" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: improve test workflow and code readability  &#10;- Add documentation for `power` method  &#10;- Adjust formatting in `/pow` route  &#10;- Update IDE configuration for task management" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -6,7 +6,7 @@ const app = express();
 const calc = new Calculator.Calculator();
 
 app.get('/', (req, res) => {
-  res.send('[CPT]');
+  res.send('Welcome to the calculator app!');
 });
 
 app.get('/add', (req, res) => {

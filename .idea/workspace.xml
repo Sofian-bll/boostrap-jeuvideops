@@ -18,9 +18,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: add unit tests for `power` method and improve test formatting&#10;- Implement tests for the new `power` method in the Calculator&#10;- Improve test formatting for better readability">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: add functional testing step to workflow  &#10;- Integrate Cypress functional test command in GitHub Actions workflow  &#10;- Adjust minor whitespace formatting in workflow configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/test.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/test.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/calculator.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/calculator.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/scripts/linenumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/scripts/linenumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,7 @@
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="58" />
+    <option name="cachedIndexableFilesCount" value="61" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -125,6 +130,7 @@
     "npm.mocha:test.executor": "Run",
     "npm.nyc:run.executor": "Run",
     "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "ts.external.directory.path": "/Users/sofian/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -213,7 +219,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="4292000" />
+      <workItem from="1775759319873" duration="4985000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -327,7 +333,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775765212120</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: add functional testing step to workflow  &#10;- Integrate Cypress functional test command in GitHub Actions workflow  &#10;- Adjust minor whitespace formatting in workflow configuration">
+      <option name="closed" value="true" />
+      <created>1775765499254</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1775765499254</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,7 +380,8 @@
     <MESSAGE value="refactor: clean up test workflow and update task configurations  &#10;- Remove commented-out job in workflow file  &#10;- Adjust IDE task management settings" />
     <MESSAGE value="refactor: streamline test workflow and IDE configuration  &#10;- Remove commented-out job in workflow  &#10;- Simplify coverage report generation step" />
     <MESSAGE value="feat: add unit tests for `power` method and improve test formatting&#10;- Implement tests for the new `power` method in the Calculator&#10;- Improve test formatting for better readability" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add unit tests for `power` method and improve test formatting&#10;- Implement tests for the new `power` method in the Calculator&#10;- Improve test formatting for better readability" />
+    <MESSAGE value="feat: add functional testing step to workflow  &#10;- Integrate Cypress functional test command in GitHub Actions workflow  &#10;- Adjust minor whitespace formatting in workflow configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add functional testing step to workflow  &#10;- Integrate Cypress functional test command in GitHub Actions workflow  &#10;- Adjust minor whitespace formatting in workflow configuration" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

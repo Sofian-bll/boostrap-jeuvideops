@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.VCS.GenerateCommitMessage">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
+              <option name="content" value="• Avoid overly verbose descriptions or unnecessary details&#10;• Keep the message as short as possible&#10;• Use the Conventional Commit format&#10;• Use bullet points for multiple changes" />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="update test workflow to trigger on main branch pushes and refine IDE configuration">
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refine test workflow by removing redundant job and updating IDE configuration">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -108,8 +122,13 @@
     "npm.jsdoc.executor": "Run",
     "npm.mocha:test.executor": "Run",
     "npm.nyc:run.executor": "Run",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "yaml"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="npm.mocha:test">
@@ -192,7 +211,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="882000" />
+      <workItem from="1775759319873" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -242,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775761810731</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refine test workflow by removing redundant job and updating IDE configuration">
+      <option name="closed" value="true" />
+      <created>1775762071115</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775762071115</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +298,9 @@
     <MESSAGE value="update IDE configuration to improve task management and test workflow" />
     <MESSAGE value="update test workflow and IDE configuration to enhance task management" />
     <MESSAGE value="update test workflow to trigger on main branch pushes and refine IDE configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="update test workflow to trigger on main branch pushes and refine IDE configuration" />
+    <MESSAGE value="refine test workflow by removing redundant job and updating IDE configuration" />
+    <MESSAGE value="refine test workflow and IDE settings by adding lint job and updating task details" />
+    <option name="LAST_COMMIT_MESSAGE" value="refine test workflow and IDE settings by adding lint job and updating task details" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -30,3 +30,9 @@ jobs:
 
       - name: List files
         run: ls -la
+
+  my_second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate coverage code report
+        run: npm nyc:run

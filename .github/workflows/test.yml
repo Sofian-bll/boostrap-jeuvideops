@@ -35,4 +35,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Generate coverage code report
-        run: npm nyc:run
+        run: npm run nyc:run

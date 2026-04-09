@@ -3,7 +3,7 @@
  */
 
 /**
- * A basic class to performs calculations
+ * A basic class to perform calculations
  */
 class Calculator {
   /**

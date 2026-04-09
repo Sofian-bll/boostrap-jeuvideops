@@ -18,9 +18,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: clean up test workflow and update task configurations  &#10;- Remove commented-out job in workflow file  &#10;- Adjust IDE task management settings">
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="refactor: streamline test workflow and IDE configuration  &#10;- Remove commented-out job in workflow  &#10;- Simplify coverage report generation step">
       <change beforePath="$PROJECT_DIR$/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/test.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/modules/calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +110,8 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "javascript.nodejs.core.library.configured.version": "25.8.0",
+    "javascript.nodejs.core.library.typings.version": "25.5.2",
     "javascript.preferred.runtime.type.id": "node",
     "last_opened_file_path": "/Users/sofian/Documents/Dev/001_Learning/Epitech/Projects/JeuVideOps/bootstrap-jeuvideops",
     "node.js.detected.package.eslint": "true",
@@ -122,7 +126,7 @@
     "npm.jsdoc.executor": "Run",
     "npm.mocha:test.executor": "Run",
     "npm.nyc:run.executor": "Run",
-    "settings.editor.selected.configurable": "com.dsoftware.ghmanager",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -211,7 +215,7 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="3073000" />
+      <workItem from="1775759319873" duration="3991000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -309,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775764206624</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="refactor: streamline test workflow and IDE configuration  &#10;- Remove commented-out job in workflow  &#10;- Simplify coverage report generation step">
+      <option name="closed" value="true" />
+      <created>1775764273339</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1775764273339</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +358,8 @@
     <MESSAGE value="refactor: enhance test workflow and IDE settings  &#10;- Add unit test step to workflow  &#10;- Comment out redundant sample job  &#10;- Update IDE task management configuration" />
     <MESSAGE value="refactor: enhance test workflow and code coverage  &#10;- Add coverage report generation to workflow  &#10;- Update IDE configuration for task management" />
     <MESSAGE value="refactor: clean up test workflow and update task configurations  &#10;- Remove commented-out job in workflow file  &#10;- Adjust IDE task management settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: clean up test workflow and update task configurations  &#10;- Remove commented-out job in workflow file  &#10;- Adjust IDE task management settings" />
+    <MESSAGE value="refactor: streamline test workflow and IDE configuration  &#10;- Remove commented-out job in workflow  &#10;- Simplify coverage report generation step" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: streamline test workflow and IDE configuration  &#10;- Remove commented-out job in workflow  &#10;- Simplify coverage report generation step" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

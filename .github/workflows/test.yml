@@ -49,4 +49,5 @@ jobs:
 
       - name: Generate coverage report
         run: npm run nyc:run && npm run nyc:coverage
+
 #      - name: Functional Tests

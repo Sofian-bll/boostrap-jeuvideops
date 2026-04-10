@@ -1,144 +1,217 @@
-# DevOps Bootstrap — Jeux VideOps
+<div align="center">
+  <img src="./images/Gemini_Generated_Image_cmjuckcmjuckcmju_copy-removebg-preview.png" alt="Jeux VideOps Logo" width="220">
 
-![Banner](https://raw.githubusercontent.com/sofian-bll/bootstrap-jeuvideops/main/assets/banner.png)
+  <h1>DevOps Bootstrap — Jeux VideOps</h1>
 
-> Premier projet DevOps réalisé dans le cadre du cursus **Web@cadémie Epitech Paris (Promo W1)**.  
-> Mise en place d'un pipeline CI/CD complet sur une application Node.js/Express avec GitHub Actions.
+  <p>
+    <strong>Premier projet DevOps réalisé dans le cadre du cursus <b>Web@cadémie Epitech Paris</b> (Promo W1).</strong><br>
+    <em>Une application calculatrice Node.js / Express pour apprendre le CI/CD de bout en bout.</em>
+  </p>
 
----
+  <img src="./images/Gemini_Generated_Image_cmjuckcmjuckcmju.png" alt="Jeux VideOps Banner" width="100%">
 
-## Stack & Outils
+  <p>
+    Stack & Outils • Présentation • Pipeline CI/CD • Fonctionnalités • Installation
+  </p>
+</div>
 
-![Node.js](https://img.shields.io/badge/Node.js-16.13.x-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-4.x-000000?style=flat-square&logo=express&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![ESLint](https://img.shields.io/badge/ESLint-Google_Style-4B32C3?style=flat-square&logo=eslint&logoColor=white)
-![Mocha](https://img.shields.io/badge/Mocha-Unit_Tests-8D6748?style=flat-square&logo=mocha&logoColor=white)
-![Cypress](https://img.shields.io/badge/Cypress-E2E_Tests-17202C?style=flat-square&logo=cypress&logoColor=white)
-![nyc](https://img.shields.io/badge/nyc-Coverage_100%25-brightgreen?style=flat-square)
-![JSDoc](https://img.shields.io/badge/JSDoc-Documentation-orange?style=flat-square)
+> [!IMPORTANT]
+> **Objectif du projet :** mettre en place un pipeline CI/CD complet et fiable autour d’une application Node.js /
+> Express.
+> L’application calculatrice sert de support pédagogique pour valider les bonnes pratiques : lint, tests unitaires,
+> couverture, E2E et documentation.
 
----
+## 🛠️ Stack & Outils
 
-## Présentation du projet
+<div align="center">
+  <img src="https://img.shields.io/badge/Node.js-16.13.x-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express-4.x-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+  <img src="https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/ESLint-Google_Style-4B32C3?style=for-the-badge&logo=eslint&logoColor=white" alt="ESLint">
+  <img src="https://img.shields.io/badge/Mocha-Unit_Tests-8D6748?style=for-the-badge&logo=mocha&logoColor=white" alt="Mocha">
+  <img src="https://img.shields.io/badge/Cypress-E2E_Tests-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress">
+  <img src="https://img.shields.io/badge/nyc-Coverage_100%25-brightgreen?style=for-the-badge" alt="nyc">
+  <img src="https://img.shields.io/badge/JSDoc-Documentation-orange?style=for-the-badge" alt="JSDoc">
+</div>
 
-Ce projet est une **application calculatrice** en Node.js/Express exposant des routes HTTP pour effectuer des opérations
-arithmétiques (`+`, `-`, `×`, `÷`, `^`).
+## ✨ Présentation du projet
 
-L'objectif principal n'est pas l'application elle-même, mais la mise en place d'un **pipeline CI/CD automatisé**
-permettant de garantir la qualité du code à chaque push.
+Ce projet est une **application calculatrice** développée en **Node.js / Express**.
+Elle expose plusieurs routes HTTP permettant d’effectuer des opérations arithmétiques simples :
 
----
+- addition
+- soustraction
+- multiplication
+- division
+- puissance
 
-## Pipeline CI/CD
+L’application a été conçue comme un **support DevOps** pour mettre en pratique :
 
-Le workflow GitHub Actions est découpé en **deux jobs parallèles** :
+- l’automatisation des tests
+- le contrôle de qualité du code
+- la génération de couverture
+- la documentation technique
+- l’exécution de tests fonctionnels E2E
+
+## 🚀 Pipeline CI/CD
+
+Le workflow GitHub Actions est défini dans `.github/workflows/test.yml` et fonctionne en **deux jobs parallèles**.
 
 ### `my_first_job` — Prise en main
 
-| Step        | Description                             |
-|-------------|-----------------------------------------|
-| Checkout    | Clone du repo sur le runner             |
-| Setup Node  | Installation de Node.js 16.13.x         |
-| Install     | `npm ci` — installation des dépendances |
-| Hello World | Vérification que le runner répond       |
-| List files  | Affichage de l'arborescence du projet   |
+| Step        | Description                                  |
+|-------------|----------------------------------------------|
+| Checkout    | Clone du dépôt sur le runner                 |
+| Setup Node  | Installation de Node.js `16.13.x`            |
+| Install     | `npm ci` pour installer les dépendances      |
+| Hello World | Vérification du bon fonctionnement du runner |
+| List files  | Affichage de l’arborescence du projet        |
 
 ### `my_second_job` — Qualité & Automatisation
 
-| Step                       | Outil                 | Description                                                      |
-|----------------------------|-----------------------|------------------------------------------------------------------|
-| Checkout + Setup + Install | —                     | Environnement propre (runner vierge)                             |
-| Lint                       | ESLint (Google Style) | Vérification du style et des conventions JS                      |
-| Unit Tests                 | Mocha                 | Tests de chaque méthode de la classe `Calculator`                |
-| Coverage Report            | nyc                   | Vérification de 100% de couverture (branches, lignes, fonctions) |
-| Export Coverage            | nyc lcov              | Génération du rapport HTML de couverture                         |
-| Functional Tests           | Cypress               | Tests E2E sur les routes HTTP réelles                            |
-| Documentation              | JSDoc                 | Génération automatique de la doc depuis les commentaires         |
+| Step                       | Outil    | Description                                         |
+|----------------------------|----------|-----------------------------------------------------|
+| Checkout + Setup + Install | —        | Préparation d’un environnement propre               |
+| Lint                       | ESLint   | Vérification du style et des conventions JavaScript |
+| Unit Tests                 | Mocha    | Validation des méthodes de `Calculator`             |
+| Coverage Report            | nyc      | Vérification de la couverture à 100%                |
+| Export Coverage            | nyc lcov | Génération du rapport HTML                          |
+| Functional Tests           | Cypress  | Validation des routes HTTP réelles                  |
+| Documentation              | JSDoc    | Génération automatique de la documentation          |
 
----
+## 🧮 Fonctionnalités de l’application
 
-## Fonctionnalités de l'application
+### Routes principales
 
-| Route            | Opération      | Exemple                        |
-|------------------|----------------|--------------------------------|
-| `GET /add?a=&b=` | Addition       | `/add?a=2&b=3` → `2 + 3 = 5`   |
-| `GET /sub?a=&b=` | Soustraction   | `/sub?a=5&b=2` → `5 - 2 = 3`   |
-| `GET /mul?a=&b=` | Multiplication | `/mul?a=3&b=4` → `3 * 4 = 12`  |
-| `GET /div?a=&b=` | Division       | `/div?a=10&b=2` → `10 / 2 = 5` |
-| `GET /pow?a=&b=` | Puissance      | `/pow?a=2&b=3` → `2 ^ 3 = 8`   |
+| Route            | Opération      | Exemple                          |
+|------------------|----------------|----------------------------------|
+| `GET /`          | Page d’accueil | `Welcome to the calculator app!` |
+| `GET /add?a=&b=` | Addition       | `/add?a=2&b=3` → `2 + 3 = 5`     |
+| `GET /sub?a=&b=` | Soustraction   | `/sub?a=5&b=2` → `5 - 2 = 3`     |
+| `GET /mul?a=&b=` | Multiplication | `/mul?a=3&b=4` → `3 * 4 = 12`    |
+| `GET /div?a=&b=` | Division       | `/div?a=10&b=2` → `10 / 2 = 5`   |
+| `GET /pow?a=&b=` | Puissance      | `/pow?a=2&b=3` → `2 ^ 3 = 8`     |
 
----
+### Comportement particulier
 
-## Lancer le projet en local
+- La route `/div` gère le cas de la division par zéro.
+- La route `/pow` permet de calculer une puissance positive, nulle ou négative.
+
+
+## 📦 Lancer le projet en local
+
+### Prérequis
+
+- **Node.js**
+- **npm**
+
+### Installation
 
 ```bash
-# Cloner le repo
 git clone https://github.com/sofian-bll/bootstrap-jeuvideops.git
 cd bootstrap-jeuvideops
-
-# Installer les dépendances
 npm ci
+```
 
-# Lancer l'application
+### Lancer l’application
+
+```bash
 npm run app:serve
-# → http://localhost:3000
+```
 
-# Lancer les tests unitaires
-npm run mocha:test
+L’application sera disponible sur :
 
-# Vérifier la couverture (100% exigé)
-npm run nyc:run
-
-# Lancer le lint
-npm run eslint:check
-
-# Tests fonctionnels E2E
-npm run cypress:test
-
-# Générer la documentation
-npm run jsdoc
+```text
+http://localhost:3000
 ```
 
 ---
 
-## Structure du projet
+## 🧪 Scripts utiles
 
-```
+| Commande               | Description                                        |
+|------------------------|----------------------------------------------------|
+| `npm run app:serve`    | Lance l’application en local avec `nodemon`        |
+| `npm run mocha:test`   | Exécute les tests unitaires                        |
+| `npm run nyc:run`      | Lance les tests avec contrôle de couverture à 100% |
+| `npm run nyc:coverage` | Génère le rapport de couverture HTML               |
+| `npm run eslint:check` | Vérifie le style du code                           |
+| `npm run cypress:test` | Lance les tests E2E Cypress                        |
+| `npm run jsdoc`        | Génère la documentation dans `docs/`               |
+
+---
+
+## ✅ Tests
+
+### Tests unitaires
+
+Les tests unitaires sont situés dans `tests/test.js` et couvrent la classe `Calculator` :
+
+- addition
+- soustraction
+- multiplication
+- division
+- puissance
+
+### Tests fonctionnels
+
+Les tests Cypress sont situés dans `cypress/e2e/test.cy.js` et valident :
+
+- l’affichage de la page d’accueil
+- les routes arithmétiques
+- la gestion de la division par zéro
+- le calcul de puissance
+
+---
+
+## 📚 Documentation générée
+
+La documentation technique est générée automatiquement via JSDoc dans le dossier `docs/`.
+
+Tu peux également consulter les rapports de couverture générés dans `coverage/`.
+
+---
+
+## 📁 Structure du projet
+
+```text
 bootstrap-jeuvideops/
 ├── .github/
 │   └── workflows/
-│       └── test.yml          # Pipeline CI/CD GitHub Actions
+│       └── test.yml          # Pipeline GitHub Actions
+├── images/
+│   ├── Gemini_Generated_Image_cmjuckcmjuckcmju.png
+│   └── Gemini_Generated_Image_cmjuckcmjuckcmju_copy-removebg-preview.png
 ├── modules/
-│   └── calculator.js         # Classe Calculator (logique métier)
+│   └── calculator.js         # Logique métier de la calculatrice
 ├── tests/
 │   └── test.js               # Tests unitaires Mocha
 ├── cypress/
 │   └── e2e/
 │       └── test.cy.js        # Tests fonctionnels Cypress
-├── docs/                     # Documentation générée par JSDoc
-├── coverage/                 # Rapport de couverture lcov
-├── index.js                  # Point d'entrée Express
-└── package.json
+├── docs/                     # Documentation JSDoc générée
+├── coverage/                 # Rapport de couverture
+├── index.js                  # Point d’entrée Express
+└── package.json              # Scripts et dépendances
 ```
 
 ---
 
-## Ce que j'ai appris
+## 🧠 Ce que j’ai appris
 
-- Comprendre et distinguer **pipeline, workflow, job, step, runner, trigger, artefact**
-- Mettre en place un pipeline CI/CD from scratch avec **GitHub Actions**
+- Comprendre la différence entre **pipeline**, **workflow**, **job**, **step** et **runner**
+- Mettre en place un pipeline CI/CD complet avec **GitHub Actions**
 - Appliquer la **Google JavaScript Style Guide** avec ESLint
-- Écrire des **tests unitaires** couvrant 100% du code avec Mocha + nyc
-- Mettre en place des **tests E2E** avec Cypress (`start-server-and-test`)
-- Générer de la **documentation automatique** avec JSDoc
-- Comprendre pourquoi **chaque job tourne sur un runner vierge** et comment partager l'environnement
+- Écrire des **tests unitaires** avec Mocha
+- Vérifier une **couverture 100%** avec nyc
+- Écrire des **tests E2E** avec Cypress
+- Générer une **documentation automatique** avec JSDoc
 
 ---
 
-## Auteur
+## 👤 Auteur
 
 **Sofian B.** — Étudiant Web@cadémie Epitech Paris (Promo W1)  
-En recherche d'alternance — Développement Web / Cybersécurité
+En recherche d’alternance — Développement Web / Cybersécurité
 
 [![GitHub](https://img.shields.io/badge/GitHub-sofian--bll-181717?style=flat-square&logo=github)](https://github.com/sofian-bll)

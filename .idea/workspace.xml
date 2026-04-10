@@ -18,8 +18,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: add new functional test and update workflow steps&#10;&#10;- Add Cypress test for the `/pow` route&#10;- Enable and configure previously commented workflow steps&#10;- Update coverage report export command in test workflow">
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: add comprehensive README for project documentation&#10;&#10;- Add project overview, goals, and pipeline details&#10;- Include stack, tools, and local setup instructions&#10;- Add test commands, features, and project structure overview&#10;- Highlight key learnings and author information">
+      <change afterPath="$PROJECT_DIR$/images/Gemini_Generated_Image_cmjuckcmjuckcmju.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Gemini_Generated_Image_cmjuckcmjuckcmju_copy-removebg-preview.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +34,17 @@
       <entry key="_/Users/sofian/Documents/Dev/001_Learning/Epitech/Projects/JeuVideOps/bootstrap-jeuvideops" value="3C7psuryuNvHFrEtMVqpESOIFCx" />
     </persistenceIdMap>
   </component>
+  <component name="CopilotUserSelectedChatMode">
+    <option name="chatModeId" value="Agent" />
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="GPT-5.4 mini" />
+      <entry key="agent-panel" value="GPT-5.4 mini" />
+    </selectedModels>
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="61" />
+    <option name="cachedIndexableFilesCount" value="62" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -96,49 +108,54 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Notification.DisplayName-DoNotAsk-GitHub Actions Manager": "GitHub Actions Manager",
-    "Notification.DisplayName-DoNotAsk-git.push.result": "",
-    "Notification.DisplayName-DoNotAsk-vcs.commit.finished": "2 files committed",
-    "Notification.DoNotAsk-GitHub Actions Manager": "true",
-    "Notification.DoNotAsk-git.push.result": "true",
-    "Notification.DoNotAsk-vcs.commit.finished": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "javascript.nodejs.core.library.configured.version": "25.8.0",
-    "javascript.nodejs.core.library.typings.version": "25.5.2",
-    "javascript.preferred.runtime.type.id": "node",
-    "last_opened_file_path": "/Users/sofian/Documents/Dev/001_Learning/Epitech/Projects/JeuVideOps/bootstrap-jeuvideops",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.app:serve.executor": "Run",
-    "npm.cypress:run.executor": "Run",
-    "npm.cypress:test.executor": "Run",
-    "npm.eslint:check.executor": "Run",
-    "npm.jsdoc.executor": "Run",
-    "npm.mocha:test.executor": "Run",
-    "npm.nyc:run.executor": "Run",
-    "settings.editor.selected.configurable": "com.dsoftware.ghmanager",
-    "ts.external.directory.path": "/Users/sofian/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-GitHub Actions Manager&quot;: &quot;GitHub Actions Manager&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-git.push.result&quot;: &quot;&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-vcs.commit.finished&quot;: &quot;2 files committed&quot;,
+    &quot;Notification.DoNotAsk-GitHub Actions Manager&quot;: &quot;true&quot;,
+    &quot;Notification.DoNotAsk-git.push.result&quot;: &quot;true&quot;,
+    &quot;Notification.DoNotAsk-vcs.commit.finished&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;25.8.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;25.5.2&quot;,
+    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sofian/Documents/Dev/001_Learning/Epitech/Projects/JeuVideOps/bootstrap-jeuvideops&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.app:serve.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cypress:run.executor&quot;: &quot;Run&quot;,
+    &quot;npm.cypress:test.executor&quot;: &quot;Run&quot;,
+    &quot;npm.eslint:check.executor&quot;: &quot;Run&quot;,
+    &quot;npm.jsdoc.executor&quot;: &quot;Run&quot;,
+    &quot;npm.mocha:test.executor&quot;: &quot;Run&quot;,
+    &quot;npm.nyc:run.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.dsoftware.ghmanager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/sofian/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "yaml"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;yaml&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.cypress:run">
     <configuration name="cypress:run" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -219,7 +236,8 @@
       <workItem from="1775757419753" duration="175000" />
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
-      <workItem from="1775759319873" duration="7487000" />
+      <workItem from="1775759319873" duration="7627000" />
+      <workItem from="1775807449734" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -373,7 +391,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775767256448</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat: add comprehensive README for project documentation&#10;&#10;- Add project overview, goals, and pipeline details&#10;- Include stack, tools, and local setup instructions&#10;- Add test commands, features, and project structure overview&#10;- Highlight key learnings and author information">
+      <option name="closed" value="true" />
+      <created>1775768815994</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1775768815994</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +420,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/boostrap-jeuvideops" />
     </ignored-roots>
-    <MESSAGE value="add GitHub Actions test workflow and update IDE configuration" />
     <MESSAGE value="add GitHub Actions workflow for testing and update configuration files" />
     <MESSAGE value="update GitHub Actions workflow to latest versions and adjust IDE configuration" />
     <MESSAGE value="add project-specific code style and update IDE configuration" />
@@ -419,7 +444,8 @@
     <MESSAGE value="feat: update JSDoc generation and improve IDE configuration&#10;&#10;- Update JSDoc generation command in test workflow  &#10;- Enhance IDE settings to include new configuration options" />
     <MESSAGE value="feat: uncomment first job and refine test workflow&#10;&#10;- Enable `my_first_job` in workflow configuration&#10;- Add coverage export step with `lcov` format" />
     <MESSAGE value="feat: add new functional test and update workflow steps&#10;&#10;- Add Cypress test for the `/pow` route&#10;- Enable and configure previously commented workflow steps&#10;- Update coverage report export command in test workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add new functional test and update workflow steps&#10;&#10;- Add Cypress test for the `/pow` route&#10;- Enable and configure previously commented workflow steps&#10;- Update coverage report export command in test workflow" />
+    <MESSAGE value="feat: add comprehensive README for project documentation&#10;&#10;- Add project overview, goals, and pipeline details&#10;- Include stack, tools, and local setup instructions&#10;- Add test commands, features, and project structure overview&#10;- Highlight key learnings and author information" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: add comprehensive README for project documentation&#10;&#10;- Add project overview, goals, and pipeline details&#10;- Include stack, tools, and local setup instructions&#10;- Add test commands, features, and project structure overview&#10;- Highlight key learnings and author information" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="github-copilot-workspace">

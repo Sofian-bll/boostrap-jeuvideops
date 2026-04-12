@@ -18,11 +18,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: add comprehensive README for project documentation&#10;&#10;- Add project overview, goals, and pipeline details&#10;- Include stack, tools, and local setup instructions&#10;- Add test commands, features, and project structure overview&#10;- Highlight key learnings and author information">
-      <change afterPath="$PROJECT_DIR$/images/Gemini_Generated_Image_cmjuckcmjuckcmju.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/Gemini_Generated_Image_cmjuckcmjuckcmju_copy-removebg-preview.png" afterDir="false" />
+    <list default="true" id="8202352b-5bf3-4c67-a120-6afbdc0ddfe4" name="Changes" comment="feat: update README, IDE config, and add media assets&#10;&#10;- Revamp README with project overview, installation, and testing details&#10;- Add IDE configuration for Node.js core library and Copilot settings&#10;- Include project-specific media files for branding and documentation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
     </selectedModels>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="62" />
+    <option name="cachedIndexableFilesCount" value="64" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -141,7 +138,7 @@
     &quot;npm.jsdoc.executor&quot;: &quot;Run&quot;,
     &quot;npm.mocha:test.executor&quot;: &quot;Run&quot;,
     &quot;npm.nyc:run.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.dsoftware.ghmanager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;tv.twelvetone.intellij.plugins.intellivue.preferences.IntellivueConfigurable&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/sofian/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -237,7 +234,12 @@
       <workItem from="1775757656350" duration="530000" />
       <workItem from="1775758238525" duration="1002000" />
       <workItem from="1775759319873" duration="7627000" />
-      <workItem from="1775807449734" duration="697000" />
+      <workItem from="1775807449734" duration="1194000" />
+      <workItem from="1775810779463" duration="1379000" />
+      <workItem from="1775846842420" duration="28000" />
+      <workItem from="1775846915455" duration="86000" />
+      <workItem from="1775847205001" duration="29000" />
+      <workItem from="1775927949925" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="add GitHub Actions workflow for testing and update configuration files">
       <option name="closed" value="true" />
@@ -399,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775768815994</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: update README, IDE config, and add media assets&#10;&#10;- Revamp README with project overview, installation, and testing details&#10;- Add IDE configuration for Node.js core library and Copilot settings&#10;- Include project-specific media files for branding and documentation">
+      <option name="closed" value="true" />
+      <created>1775808189550</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1775808189550</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +430,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/boostrap-jeuvideops" />
     </ignored-roots>
-    <MESSAGE value="add GitHub Actions workflow for testing and update configuration files" />
     <MESSAGE value="update GitHub Actions workflow to latest versions and adjust IDE configuration" />
     <MESSAGE value="add project-specific code style and update IDE configuration" />
     <MESSAGE value="update test workflow to include code coverage reporting" />
@@ -445,7 +454,8 @@
     <MESSAGE value="feat: uncomment first job and refine test workflow&#10;&#10;- Enable `my_first_job` in workflow configuration&#10;- Add coverage export step with `lcov` format" />
     <MESSAGE value="feat: add new functional test and update workflow steps&#10;&#10;- Add Cypress test for the `/pow` route&#10;- Enable and configure previously commented workflow steps&#10;- Update coverage report export command in test workflow" />
     <MESSAGE value="feat: add comprehensive README for project documentation&#10;&#10;- Add project overview, goals, and pipeline details&#10;- Include stack, tools, and local setup instructions&#10;- Add test commands, features, and project structure overview&#10;- Highlight key learnings and author information" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add comprehensive README for project documentation&#10;&#10;- Add project overview, goals, and pipeline details&#10;- Include stack, tools, and local setup instructions&#10;- Add test commands, features, and project structure overview&#10;- Highlight key learnings and author information" />
+    <MESSAGE value="feat: update README, IDE config, and add media assets&#10;&#10;- Revamp README with project overview, installation, and testing details&#10;- Add IDE configuration for Node.js core library and Copilot settings&#10;- Include project-specific media files for branding and documentation" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: update README, IDE config, and add media assets&#10;&#10;- Revamp README with project overview, installation, and testing details&#10;- Add IDE configuration for Node.js core library and Copilot settings&#10;- Include project-specific media files for branding and documentation" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="github-copilot-workspace">
